@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)bt1:(id)sender;
 
 @end
 
@@ -24,4 +25,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)bt1:(id)sender {
+    NSLog(@"hello world!");
+}
 @end
