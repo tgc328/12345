@@ -27,5 +27,6 @@
 
 - (IBAction)bt1:(id)sender {
     NSLog(@"hello world!");
+    NSLog(@"hello 123");
 }
 @end
